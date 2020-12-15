@@ -5,10 +5,10 @@ Assignment 2: Automation of Google maps
 
 Details of OS & softwares used for test automation -
   OS - Mac OS Mojave 10.14.6 (18G2022)
-  Node version - 14.4.0
-  NPM version - 6.14.4
+  Install Node version - 14.4.0
+  Install NPM version - 6.14.4
   WebdriverIO version - 6.1.25
-  Chrome - 87.0.4280.88
+  Install Chrome - 87.0.4280.88
   Chromedriver - 87.0.4280.20
 
 Steps -
