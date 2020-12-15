@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'chrome',
+1 verbose cli   'https://nl.test.vacan-soleil.com'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose config Skipping project config: /root/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prechrome', 'chrome', 'postchrome' ]
+6 info lifecycle vacansoleil_test_automation@1.0.0~prechrome: vacansoleil_test_automation@1.0.0
+7 info lifecycle vacansoleil_test_automation@1.0.0~chrome: vacansoleil_test_automation@1.0.0
+8 verbose lifecycle vacansoleil_test_automation@1.0.0~chrome: unsafe-perm in lifecycle true
+9 verbose lifecycle vacansoleil_test_automation@1.0.0~chrome: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/root/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle vacansoleil_test_automation@1.0.0~chrome: CWD: /root
+11 silly lifecycle vacansoleil_test_automation@1.0.0~chrome: Args: [
+11 silly lifecycle   '-c',
+11 silly lifecycle   'wdio run wdio.conf.chrome.js --baseUrl $1 "https://nl.test.vacan-soleil.com"'
+11 silly lifecycle ]
+12 silly lifecycle vacansoleil_test_automation@1.0.0~chrome: Returned: code: 1  signal: null
+13 info lifecycle vacansoleil_test_automation@1.0.0~chrome: Failed to exec chrome script
+14 verbose stack Error: vacansoleil_test_automation@1.0.0 chrome: `wdio run wdio.conf.chrome.js --baseUrl $1 "https://nl.test.vacan-soleil.com"`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+14 verbose stack     at EventEmitter.emit (events.js:315:20)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:315:20)
+14 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+15 verbose pkgid vacansoleil_test_automation@1.0.0
+16 verbose cwd /root
+17 verbose Linux 4.19.76-linuxkit
+18 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "chrome" "https://nl.test.vacan-soleil.com"
+19 verbose node v12.18.3
+20 verbose npm  v6.14.6
+21 error code ELIFECYCLE
+22 error errno 1
+23 error vacansoleil_test_automation@1.0.0 chrome: `wdio run wdio.conf.chrome.js --baseUrl $1 "https://nl.test.vacan-soleil.com"`
+23 error Exit status 1
+24 error Failed at the vacansoleil_test_automation@1.0.0 chrome script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]

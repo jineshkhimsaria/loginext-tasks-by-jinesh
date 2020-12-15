@@ -1,0 +1,1 @@
+pageGoogle = require(`./google.page`);
